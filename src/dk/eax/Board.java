@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Created by eax on 18/02/16.
  */
 public class Board {
-    ArrayList<Field> board = new ArrayList<>();
+    ArrayList<Field> board = new ArrayList<Field>();
 
     public Board() {}
 
