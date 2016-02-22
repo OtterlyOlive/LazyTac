@@ -107,6 +107,22 @@ public class Main {
             return true;
         }
 
+        if(
+                board.getBoard().get(0) != null &&
+                board.getBoard().get(1) != null &&
+                board.getBoard().get(2) != null &&
+                board.getBoard().get(3) != null &&
+                board.getBoard().get(4) != null &&
+                board.getBoard().get(5) != null &&
+                board.getBoard().get(6) != null &&
+                board.getBoard().get(7) != null &&
+                board.getBoard().get(8) != null &&
+                board.getBoard().get(9) != null
+            ){
+            System.out.println("FUCKING DRAW! HOW FUCKING STUPID ARE YOU!?");
+            return true;
+        }
+
         return false;
     }
 
