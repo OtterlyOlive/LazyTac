@@ -8,6 +8,7 @@ import dk.eax.graphics.Ellipse;
 public class Circle extends Token {
     public Boolean draw(Field field){
         if(field.getToken() == null) {
+            System.out.println(field.getToken());
             int y = field.getCoordinate_y();
             int x = field.getCoordinate_x();
 

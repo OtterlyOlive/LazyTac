@@ -108,16 +108,16 @@ public class Main {
         }
 
         if(
-                board.getBoard().get(0).getToken() != null &&
-                board.getBoard().get(1).getToken() != null &&
-                board.getBoard().get(2).getToken() != null &&
-                board.getBoard().get(3).getToken() != null &&
-                board.getBoard().get(4).getToken() != null &&
-                board.getBoard().get(5).getToken() != null &&
-                board.getBoard().get(6).getToken() != null &&
-                board.getBoard().get(7).getToken() != null &&
-                board.getBoard().get(8).getToken() != null
-            ){
+            board.getBoard().get(0).getToken() != null &&
+            board.getBoard().get(1).getToken() != null &&
+            board.getBoard().get(2).getToken() != null &&
+            board.getBoard().get(3).getToken() != null &&
+            board.getBoard().get(4).getToken() != null &&
+            board.getBoard().get(5).getToken() != null &&
+            board.getBoard().get(6).getToken() != null &&
+            board.getBoard().get(7).getToken() != null &&
+            board.getBoard().get(8).getToken() != null
+        ) {
             System.out.println("FUCKING DRAW! HOW FUCKING STUPID ARE YOU!?");
             return true;
         }

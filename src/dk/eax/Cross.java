@@ -19,6 +19,6 @@ public class Cross extends Token {
             return true;
         }
 
-        return true;
+        return false;
     }
 }
