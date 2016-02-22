@@ -116,8 +116,7 @@ public class Main {
                 board.getBoard().get(5) != null &&
                 board.getBoard().get(6) != null &&
                 board.getBoard().get(7) != null &&
-                board.getBoard().get(8) != null &&
-                board.getBoard().get(9) != null
+                board.getBoard().get(8) != null
             ){
             System.out.println("FUCKING DRAW! HOW FUCKING STUPID ARE YOU!?");
             return true;
