@@ -1,9 +1,6 @@
 package dk.eax;
 
 import dk.eax.graphics.*;
-import javafx.scene.shape.Circle;
-
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -41,7 +38,7 @@ public class Main {
             System.out.printf("Circle Player, where do you wish to plant your puny ring? > ");
             input = keyboard.nextInt();
             tempField = board.getBoard().get(input);
-            dk.eax.Circle tempCircle = new dk.eax.Circle();
+            Circle tempCircle = new dk.eax.Circle();
 
             while(!tempCircle.draw(tempField)){
                 System.out.printf("How stupid are you? That field is taken! Enter a new one! > ");
