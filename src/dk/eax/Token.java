@@ -5,6 +5,6 @@ package dk.eax;
  */
 public abstract class Token {
     public Boolean draw(){
-        return true;
+        return false;
     }
 }
